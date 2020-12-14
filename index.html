@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,31 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Video</title>
 </head>
-<body>
-    
-<h1>Probando</h1>
 
-     <!-- Javascript -->
-     <script src="./js/main.js"></script>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <img src="./images/preloader.gif" alt="preloader image">
+    </div>
+
+    <!-- Header -->
+    <header>
+        <video class="video-container" muted autplay loop>
+            <source src="./videos/video.mp4" type="video/mp4">
+        </video>
+        <h1>video proyect</h1>
+        
+        <!-- Video switch -->
+        <button class="switch-btn">
+            <span>play</span>
+            <span>pause</span>
+            <span class="switch"></span>
+        </button>
+    </header>
+
+
+    <!-- Javascript -->
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
